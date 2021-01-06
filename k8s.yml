@@ -1,0 +1,5 @@
+- hosts: k8s
+  tasks:
+  - name: deploying the micro services
+    command: kubectl apply -f /root/java.yml
+
